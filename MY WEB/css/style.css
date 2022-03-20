@@ -1,0 +1,1389 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+
+header{
+width: 100%;
+position: fixed;
+z-index: 999;
+
+}
+
+.social-menu {
+  width: 100%;
+  height: 37px;
+  top: 0;
+  background-color: #505050;
+  opacity: 0.8;
+  transition: 0.3s;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);;
+
+}
+
+.social-menu a{
+  display: inline-flex;
+  text-decoration: none;
+  color: #999999;
+  font-size: 25px;
+  margin-top: 0.4%;
+  margin-left: 5%;
+  float: left;
+}
+
+.social-menu a:hover{
+  color: #fff;
+}
+
+.social-menu a i{
+  transition: 0.2s all;
+}
+
+.social-menu a:hover > i{
+  transform: scale(1.15) rotate(20deg);
+}
+
+nav{
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  z-index: 999;
+  transition: 0.5s;
+
+}
+
+/* SIdemenu */
+
+.navi-links{
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+  display: flex;
+}
+
+.navi-links li{
+  display: inline-block;
+  margin: 10px 3px;
+
+  list-style: none;
+  line-height: 40px;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);;
+
+}
+
+.navi-links li a{
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  padding: 0 20px;
+  border-radius: 25px 0 25px 0;
+  border:  4px 0 4px;
+  transition: 0.2s ease;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.navi-links li a:hover{
+  font-size: 20px;
+  color: #000;
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.navi-links .active a{
+  font-size: 20px;
+  color: #000;
+  background-color: #fff;
+  opacity: 0.95;
+}
+
+
+/* copyright banner */
+
+article.copyright{
+  display: block;
+  height: 20px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  bottom: 0;
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+
+}
+
+/* footer content */
+footer{
+  width: 100%;
+  height: 70%;
+  top: 0;
+  background-color: #505050;
+}
+
+footer .newsletter-content{
+
+  background-color: #000;
+}
+
+footer article.newsletter{
+  padding: 45px 60px;
+  left: 10%;
+  color: #fff;
+
+
+
+}
+
+footer article.newsletter h1{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+
+  text-decoration: overline;
+
+}
+
+footer article.newsletter p{
+  font-family: 'Lato', sans-serif;
+  margin: 4px 60px;
+  text-align: center;
+}
+
+.newsletter-box{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.newsletter-box i{
+  font-size: 47px;
+  height: 40px;
+
+  width: 55px;
+  line-height: 40px;
+
+}
+
+.newsletter-box:hover > .email, .email-btn{
+  width: 260px;
+  padding: 0 10px;
+
+}
+
+.email{
+  width: 0px;
+  transition: 0.5s;
+}
+
+ .email-btn{
+   background: #3d3d3d;
+   width: 90px;
+   color: #fff;
+   cursor: pointer;
+   font-family: 'Lato', sans-serif;
+   text-transform: uppercase;
+   border: none;
+   height: 40px;
+
+ }
+
+
+ .footer-content{
+
+   padding: 20px 0;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   display: block;
+   background: #150f0a;
+
+ }
+
+ .footer-content article.footer-content-text{
+
+   width: 60%;
+   padding: 10px 30px;
+   color: #fff;
+   align-items: center;
+ }
+
+ .footer-content-text h1{
+   font-size: 30px;
+   font-family: 'Bebas Neue', cursive;
+ }
+
+ .footer-content-text p{
+   font-family: 'Lato', sans-serif;
+ }
+
+ /* //footer content */
+
+
+body{
+  width: 100%;
+  background-color: #000;
+  top: 0;
+
+}
+
+#full-page{
+  width: 100%;
+  height: 100vh;
+}
+
+#full-page div{
+  min-height: 100%;
+}
+
+/* index page introduction page/ title page */
+
+#full-page div#index-intro{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../img/classic-japan4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+
+.involved-text-2 a, .copyright a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.involved-text-2 a:hover{
+  color: #b80007;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.copyright a:hover{
+  color: #b80007;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.index-title{
+  top: 75%;
+  left: 50%;
+  margin-bottom: -150%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  overflow: hidden;
+
+}
+
+.index-title h1{
+
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  font-size: 110px;
+  opacity: 0;
+  text-align: center;
+}
+
+#index-intro div.index-title h4{
+
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  opacity: 0;
+  text-align: center;
+}
+
+.button{
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+
+}
+
+/* scroll top button */
+.btn{
+  position: relative;
+  display: block;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 25px 0 25px 0;
+  padding: 14px 35px;
+  overflow: hidden;
+  transition: all 1s ease;
+  transition: all 1s ease-out;
+
+  opacity: 0;
+
+}
+
+/* scroll top button id */
+
+#scrollTopBtn{
+  font-family: 'Bebas Neue', cursive;
+
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  color: #000;
+  border-radius: 25px 0 25px 0;
+  text-transform: uppercase;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+#scrollTopBtn:hover{
+  background: #910000;
+  color: #fff;
+}
+
+
+/* Dropdown section for the index page  */
+
+#full-page div#index-section{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.9)), url(../img/classic-japan1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 250vh;
+  padding-bottom: 100px;
+
+}
+
+#index-section div.index-title-quote{
+  top: 185%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+
+}
+
+#index-section div.index-title-quote h1{
+
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  font-size: 80px;;
+  padding: 20px;
+  opacity: 0.8;
+  text-align: center;
+
+}
+
+#index-section div.index-title-quote h5{
+
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-style: italic;
+  font-size: 14px;
+  opacity: 0.75;
+  text-align: center;
+}
+
+
+article .index-text{
+  display: block;
+}
+
+.index-text{
+  position: absolute;
+  width: 40%;
+  margin:0 5%;
+  margin-right: 10%;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 22px;
+  font-size: 18px;
+  top: 180%;
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.index-text h1{
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.index-text p{
+  font-size: 15px;
+
+}
+
+
+.index-text-img{
+  position: relative;
+  padding: 15px 0;
+  width: 30%;
+  top: 35%;
+  right: 10%;
+  float: right;
+
+}
+
+.index-text-img img{
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+
+.index-text-img p{
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+font-family: 'Bebas Neue', cursive;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+  opacity: 0.9;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* WHAT IS FEUDALISM PAGE */
+
+#full-page div#intro-whatis{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/japan6-4k.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 950vh;
+}
+
+ .index-title{
+  top: 75%;
+  left: 50%;
+  margin-bottom: -150%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  overflow: hidden;
+
+}
+
+.index-title h1{
+
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  font-size: 110px;
+  opacity: 0;
+}
+
+.whatis-subtitle{
+  display: block;
+  position: relative;
+  text-align: center;
+
+  margin:20px 0;
+
+}
+
+.whatis-subtitle h1{
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  font-size: 80px;
+}
+
+.whatis-text{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  top: 130%;
+  left: 0;
+  padding: 30px;
+  color: #fff;
+
+}
+
+.whatis-text-1, .whatis-text-2{
+  position: relative;
+  padding: 30px;
+  display: block;
+  width: 90%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.whatis-text-1{
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.whatis-text-2{
+
+  float: right;
+  width: 40%;
+}
+
+.whatis-text-1 h1, .whatis-text-2 h1, .whatis-shogun-text h1,
+.whatis-daimyo-text h1, .whatis-samurai-text h1, .whatis-peasants-text h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+}
+
+.whatis-text-1 p, .whatis-text-2 p, .whatis-shogun-text p,
+.whatis-daimyo-text p, .whatis-samurai-text p, .whatis-peasants-text p{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+
+}
+
+
+.whatis-text-img{
+  padding: 15px 0;
+  width: 50%;
+}
+
+.whatis-text-img img{
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.whatis-text-img p, .shogun-img p, .daimyo-img p,
+ .samurai-img p, .peasants-img p{
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+
+/* wrappers */
+.whatis-shogun, .whatis-daimyo, .whatis-samurai, .whatis-peasants{
+  position: absolute;
+  display: block;
+  left: 0;
+  padding: 50px;
+  color: #fff;
+}
+/* text boxes */
+.whatis-shogun-text, .whatis-daimyo-text,
+.whatis-samurai-text, .whatis-peasants-text{
+  position: relative;
+  padding: 30px;
+  display: block;
+  float: right;
+  width: 50%;
+  top: 50%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.shogun-img, .daimyo-img, .samurai-img, .peasants-img{
+  width: 40%;
+
+}
+
+.shogun-img img{
+  width: 100%;
+  padding: 10px 0;
+
+
+  height: auto;
+}
+
+
+.whatis-shogun{
+    top: 310%;
+}
+
+
+.daimyo-img img{
+  width: 100%;
+  padding: 10px 0;
+
+
+  height: auto;
+}
+
+.whatis-daimyo{
+  top: 460%;
+}
+
+.samurai-img img{
+  width: 100%;
+  padding: 10px 0;
+
+
+  height: auto;
+}
+
+.whatis-samurai{
+  top: 620%;
+}
+
+
+.peasants-img img{
+  width: 100%;
+  padding: 10px 0;
+
+
+  height: auto;
+}
+
+.whatis-peasants{
+  top: 800%;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* Resources PAGE */
+
+#full-page div#intro-Resources{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.9)), url(../img/classic-japan2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 250vh;
+}
+
+.index-title{
+  top: 75%;
+  left: 50%;
+  margin-bottom: -150%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  overflow: hidden;
+
+}
+
+.index-title h1{
+
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  font-size: 110px;
+  opacity: 0;
+}
+
+/* donation form */
+
+.donation-wrapper{
+  position: absolute;
+  top: 220%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.donation-form{
+
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* Life PAGE */
+
+#full-page div#intro-Life{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/japan9.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 300vh;
+}
+
+
+/* text and image */
+.index-title{
+  top: 75%;
+  left: 50%;
+  margin-bottom: -150%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  overflow: hidden;
+
+}
+
+.index-title h1{
+
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  font-size: 110px;
+  opacity: 0;
+}
+
+.life-text-1{
+  position: relative;
+  padding: 30px;
+  display: block;
+  width: 90%;
+  background-color: rgba(0,0,0,0.3);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.life-text-1 h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+}
+
+.life-text-1 p{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+
+}
+
+.life-text{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  top: 210%;
+  left: 0;
+  padding: 30px;
+  color: #fff;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* Involved PAGE */
+
+#full-page div#intro-Involved{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../img/japan7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 600vh;
+}
+
+.index-title{
+  top: 75%;
+  left: 50%;
+  margin-bottom: -150%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  overflow: hidden;
+
+}
+
+
+/* text and images */
+.involved-text h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+}
+
+.involved-text p{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+
+}
+
+.event1-img p,.resource-img p{
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+.involved-box, .involved-box1{
+  position: absolute;
+  display: block;
+  left: 0;
+  padding: 50px;
+  color: #fff;
+
+}
+
+.involved-box{
+  top: 100%;
+}
+
+.involved-box1{
+  top: 300%;
+}
+
+
+.involved-text{
+  position: relative;
+  padding: 30px;
+  display: block;
+  float: right;
+  width: 50%;
+  top: 50%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.event1-img{
+  width: 40%;
+
+}
+
+.event1-img img{
+  width: 100%;
+  padding: 10px 0;
+
+
+  height: auto;
+}
+
+.involved-text-2{
+  position: relative;
+  padding: 30px;
+  display: block;
+  width: 90%;
+  background-color: rgba(0,0,0,0.3);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.involved-text-2 h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+}
+
+.involved-text-2 p{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+
+}
+
+.involved-text2{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  padding: 30px;
+  color: #fff;
+}
+
+/* contact form */
+
+.wrapper-form{
+  position: absolute;
+  top: 600%;
+  transform: translateY(-50%);
+  width: 100%;
+
+}
+
+.contact-form{
+
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.inputs{
+
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.inputs, .message{
+  width: 48%;
+}
+
+
+
+.inputs, .input, .message textarea{
+  font-family: 'Bebas Neue', cursive;
+
+  margin: 10px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  padding: 5px;
+  color: #fff;
+  width: 100%;
+
+}
+
+.message textarea{
+  height: 212px;
+  width: 180px;
+}
+
+.message button{
+
+  background: #af2222;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+
+  width: 200px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.message button:hover{
+  background: #8a002c;
+
+}
+
+
+/*IPAD PRO = 1024 x 1366  */
+/* IPAD = 768 x 1024 */
+
+/* IPHONE X = 375 X 812 */
+/* IPHONE 6,7,8 PLUS = 414 X 736  */
+/* IPHONE 6,7,8 = 375 X 667*/
+/* IPHONE 5/SE = 320 X 568 */
+/* PIXEL 2 XL = 411 X 823  */
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 780px){
+  /* HEADER NAV---------------------*/
+  .line{
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 5px;
+    border-radius: 8px 0 8px 0;
+  }
+
+  .social-menu {
+    bottom: 0;
+    background-color: #505050;
+    opacity: 0.8;
+
+  }
+
+  nav{
+    position: relative;
+  }
+
+  .sidemenu{
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 0;
+    transform: translate(-2%,-110%);
+  }
+
+  .navi-links{
+    position: fixed;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    opacity: 0.95;
+    top: 29px;
+    align-items: center;
+    justify-content:  space-around;
+
+    clip-path: circle(100px at 90% -55%);
+    -webkit-clip-path: circle(100px at 90% -55%);
+    transition: 1s all ease;
+
+  }
+
+  .navi-links.open{
+    clip-path: circle(2000px at 90% -55%);
+    -webkit-clip-path: circle(2000px at 90% -55%);
+  }
+
+  /* what is page */
+  #full-page div#intro-whatis{
+
+    height: 1050vh;
+  }
+
+  .whatis-text{
+    top: 120%;
+  }
+
+  .whatis-shogun, .whatis-daimyo, .whatis-samurai, .whatis-peasants{
+    margin: 100px 0;
+  }
+
+  .whatis-shogun-text, .whatis-daimyo-text,
+  .whatis-samurai-text, .whatis-peasants-text, .whatis-text-2,
+   .involved-text, .resource-text-1, .index-text{
+
+
+    width: 90%;
+    float: none;
+    display: block;
+    margin: auto;
+    transform: translateX(-50%);
+    left: 50%;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .shogun-img, .daimyo-img, .samurai-img, .peasants-img, .event1-img{
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    padding: 20px 50px;
+  }
+
+  .index-text-img{
+    width: 60%;
+    float: none;
+    top: 40%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    padding: 20px 50px;
+
+  }
+
+
+  .whatis-subtitle h1{
+    font-size: 60px;
+  }
+
+  .whatis-text-img{
+    position: relative;
+    padding: 15px 0;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .resource-text{
+    top: 100%;
+  }
+
+  .resource-text1{
+    top: 250%;
+  }
+
+}
+
+@media only screen and (max-width: 788px){
+  /* index page */
+  .index-title{
+    top: 72%;
+  }
+
+  .button{
+    top: 120%;
+  }
+
+  #full-page div#intro-Life{
+
+    height: 350vh;
+  }
+
+}
+
+@media only screen and (max-width: 962px){
+
+  .index-title h1{
+    font-size: 90px;
+  }
+
+}
+
+
+@media only screen and (max-width: 886px){
+  /* index page */
+  #index-section div.index-title-quote h2{
+    font-size: 25px;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px){
+  /* index page */
+  .index-text{
+    width: 75%;
+  }
+
+
+
+  #index-section div.index-title-quote h1{
+
+    font-size: 60px;
+  }
+
+  /* footer */
+
+  footer{
+    width: 100%;
+    height: 70%;
+    top: 0;
+  }
+
+  footer article.newsletter{
+    padding: 45px 60px;
+    left: 10%;
+  }
+
+  footer article.newsletter h1{
+    font-size: 30px;
+  }
+
+  footer article.newsletter p{
+    margin: 10px 60px;
+    font-size: 10px;
+  }
+
+  .newsletter-box{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .newsletter-box i{
+    font-size: 47px;
+    height: 40px;
+
+    width: 55px;
+    line-height: 40px;
+
+  }
+
+  .newsletter-box:hover > .email, .email-btn{
+    width: 130px;
+    padding: 0 10px;
+
+  }
+
+   .email-btn{
+
+     width: 90px;
+     height: 40px;
+
+   }
+
+   .footer-content-text h1{
+     font-size: 25px;
+     font-family: 'Bebas Neue', cursive;
+   }
+
+   .footer-content-text p{
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+   }
+
+   /* What is feuda page */
+
+   #intro-whatis div.index-title-quote h1{
+
+     font-size: 60px;
+   }
+
+   .contact-form,.donation-form{
+     width: 90%;
+   }
+
+   .message textarea{
+     height: 80px;
+     width: 130px;
+   }
+
+   .inputs,.message{
+     width: 100%;
+   }
+
+   .message button{
+
+     width: 150px;
+
+
+   }
+
+
+}
+
+@media only screen and (max-width: 500px){
+  /* index page */
+  #index-section div.index-title-quote h1{
+
+    font-size: 50px;
+  }
+
+  .index-text-img{
+    width: 60%;
+    float: none;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    padding: 20px 50px;
+
+  }
+
+  /* footer */
+
+  .newsletter-box{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .newsletter-box i{
+    font-size: 30px;
+    height: 30px;
+
+    width: 55px;
+    line-height: 30px;
+
+  }
+
+  .newsletter-box:hover > .email, .email-btn{
+    width: 130px;
+    padding: 0 10px;
+
+  }
+
+  .email{
+    width: 0px;
+    transition: 0.5s;
+  }
+
+   .email-btn{
+     background: #3d3d3d;
+     width: 90px;
+     color: #fff;
+     cursor: pointer;
+     font-family: 'Lato', sans-serif;
+     text-transform: uppercase;
+     border: none;
+     height: 30px;
+
+   }
+
+   .footer-content-text h1{
+     font-size: 20px;
+     font-family: 'Bebas Neue', cursive;
+   }
+
+   .footer-content-text p{
+     font-family: 'Lato', sans-serif;
+     font-size: 14px;
+   }
+
+   /* what is feudalism page */
+
+   #intro-whatis div.index-title-quote h1{
+
+     font-size: 50px;
+   }
+
+   .message button{
+      width: 100px;
+   }
+
+   .message textarea{
+     height: 80px;
+     width: 80px;
+   }
+
+   .inputs,.message{
+     width: 100%;
+   }
+
+
+
+}
+
+@media only screen and (max-width: 406px){
+  /* index page */
+  .index-title h1{
+    font-size: 75px;
+  }
+
+  #index-section div.index-title-quote h1{
+
+    font-size: 30px;
+  }
+
+  /* footer */
+
+  article.copyright{
+    font-size: 10px;
+
+  }
+
+  footer article.newsletter h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+
+    text-decoration: overline;
+
+  }
+
+  /* what is feudalism page */
+
+  #intro-whatis div.index-title-quote h1{
+    font-size: 30px;
+  }
+
+  .whatis-subtitle h1{
+    font-size: 30px;
+  }
+
+  #full-page div#intro-Life{
+
+    height: 400vh;
+  }
+
+  .index-text-img{
+    width: 60%;
+    float: none;
+    top: 55%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    padding: 20px 50px;
+
+  }
+}
+
+@media only screen and (max-width: 351px){
+  .index-title h1{
+    font-size: 65px;
+  }
+}

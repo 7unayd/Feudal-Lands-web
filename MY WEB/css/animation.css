@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+
+
+/* main title for all pages*/
+
+.index-title h1{
+  animation-name: main-title;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes main-title {
+  0% {opacity: 0}
+  100% {opacity: 0.85}
+}
+
+#index-intro div.index-title h4{
+  animation-name: sub-title;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sub-title {
+  0% {opacity: 0}
+  100% {opacity: 0.75}
+}
+
+/* home CLICK BUTTON */
+
+.btn{
+  animation-name: btn;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes btn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+
+}
+
+.btn::before{
+  background: #fff;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.2s ease;
+}
+
+.btn::before{
+  width: 100%;
+  height: 0;
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.btn:hover{
+  color: #000;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);;
+
+}
+
+.btn:hover::before{
+  height: 380%;
+}
+/*
+--------------------------------------------------------------
+--------------------------------------------------------------
+ */
+
+/* SLideshow image */
+
+.slideshow{
+  width: 70%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 150%;
+  transform: translate(-50%,-50%);
+  background-image: url(../img/japan7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0 3px 2px 2px rgba(0,0,0,0.2);;
+  border-radius: 150px 0 150px 0;
+
+
+  animation: slider 12s infinite linear;
+}
+
+@keyframes slider{
+  0%{
+    background-image: url(../img/japan7.jpg);
+
+  }
+  35%{
+    background-image: url(../img/japan8.jpg);
+
+  }
+  75%{
+    background-image: url(../img/classic-japan1.jpg);
+  }
+}
